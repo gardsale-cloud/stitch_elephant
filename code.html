@@ -86,8 +86,9 @@
 </div>
 </header>
 <section class="relative h-[calc(100vh-85px)] min-h-[600px] w-full flex items-center justify-center text-center px-6 overflow-hidden">
+<!-- TEMP: Hero image placeholder - will be replaced with actual image in Next.js -->
 <div class="absolute inset-0 z-0">
-<img alt="Elephant in natural habitat" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBN4Pnqr_i4QBP4iVQCmQzedXKZ7eNpqybISpl-3JMDWXP47o35I-Sps_FIvhXnf6tpXVGRIsMecnkPO3HjLG2LYB9WKzNSKVpv58O5TVYPHjdAa-fNSzjTmN0f29JbCpDOh3aLk-3dHUxoTepE3h558pfDzhzVVTY9ij9Lls4R7u25ZYAHhp8msX2tmgxdVytuRx1uT8EPsdFGDNWh_x8qSdq_RtvobnAM-DCxVMNISpkvP-bDW20qyFomcYbEFRDefdFvHa7GKUo"/>
+<img alt="Elephant in natural habitat" class="w-full h-full object-cover" src="/assets/temp/hero.jpg" onerror="this.style.backgroundColor='#2a3825'; this.style.display='block';"/>
 <div class="absolute inset-0 bg-black/40"></div>
 </div>
 <div class="relative z-10 max-w-4xl mx-auto flex flex-col gap-8">
@@ -162,17 +163,23 @@
 </div>
 </div>
 <div class="flex-1 w-full order-1 lg:order-2">
+<!-- TEMP: Story section image placeholder -->
 <div class="relative group">
 <div class="absolute -inset-4 bg-sand dark:bg-white/5 rounded-[2.5rem] rotate-2 transition-transform duration-700 group-hover:rotate-0"></div>
-<div class="relative z-10 w-full aspect-[4/3] bg-[#594a3a] rounded-[2rem] shadow-2xl"></div>
+<div class="relative z-10 w-full aspect-[4/3] bg-[#594a3a] rounded-[2rem] shadow-2xl">
+<img src="/assets/temp/story-image.jpg" class="w-full h-full object-cover rounded-[2rem]" alt="Sanctuary grounds" onerror="this.style.display='none'" />
+</div>
 </div>
 </div>
 </div>
 <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
 <div class="flex-1 w-full order-1">
+<!-- TEMP: Ethics image placeholder -->
 <div class="relative group">
 <div class="absolute -inset-4 bg-forest/5 dark:bg-white/5 rounded-[2.5rem] -rotate-2 transition-transform duration-700 group-hover:rotate-0"></div>
-<div class="relative z-10 w-full aspect-[4/3] bg-[#2a3825] rounded-[2rem] shadow-2xl"></div>
+<div class="relative z-10 w-full aspect-[4/3] bg-[#2a3825] rounded-[2rem] shadow-2xl">
+<img src="/assets/temp/ethics-image.jpg" class="w-full h-full object-cover rounded-[2rem]" alt="Elephant ethics" onerror="this.style.display='none'" />
+</div>
 </div>
 </div>
 <div class="flex-1 space-y-8 order-2">
@@ -206,7 +213,10 @@
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 <div class="group bg-white dark:bg-white/5 rounded-[2rem] overflow-hidden border border-forest/5 hover:shadow-2xl transition-all">
 <div class="aspect-[4/5] overflow-hidden">
-<div class="w-full h-full bg-[#594a3a] transition-transform duration-700 group-hover:scale-110"></div>
+<!-- TEMP: Elephant profile image placeholder -->
+<div class="w-full h-full bg-[#594a3a] transition-transform duration-700 group-hover:scale-110">
+<img src="/assets/temp/elephant-lamuan.jpg" class="w-full h-full object-cover" alt="Lamuan the elephant" onerror="this.style.display='none'" />
+</div>
 </div>
 <div class="p-8 text-center">
 <h3 class="text-2xl font-black text-forest dark:text-white mb-2">Lamuan</h3>
@@ -218,7 +228,10 @@
 </div>
 <div class="group bg-white dark:bg-white/5 rounded-[2rem] overflow-hidden border border-forest/5 hover:shadow-2xl transition-all">
 <div class="aspect-[4/5] overflow-hidden">
-<div class="w-full h-full bg-[#3e4f3a] transition-transform duration-700 group-hover:scale-110"></div>
+<!-- TEMP: Elephant profile image placeholder -->
+<div class="w-full h-full bg-[#3e4f3a] transition-transform duration-700 group-hover:scale-110">
+<img src="/assets/temp/elephant-kannika.jpg" class="w-full h-full object-cover" alt="Kannika the elephant" onerror="this.style.display='none'" />
+</div>
 </div>
 <div class="p-8 text-center">
 <h3 class="text-2xl font-black text-forest dark:text-white mb-2">Kannika</h3>
@@ -230,7 +243,10 @@
 </div>
 <div class="group bg-white dark:bg-white/5 rounded-[2rem] overflow-hidden border border-forest/5 hover:shadow-2xl transition-all">
 <div class="aspect-[4/5] overflow-hidden">
-<div class="w-full h-full bg-[#6b5c4d] transition-transform duration-700 group-hover:scale-110"></div>
+<!-- TEMP: Elephant profile image placeholder -->
+<div class="w-full h-full bg-[#6b5c4d] transition-transform duration-700 group-hover:scale-110">
+<img src="/assets/temp/elephant-madee.jpg" class="w-full h-full object-cover" alt="Madee the elephant" onerror="this.style.display='none'" />
+</div>
 </div>
 <div class="p-8 text-center">
 <h3 class="text-2xl font-black text-forest dark:text-white mb-2">Madee</h3>
@@ -256,7 +272,10 @@
 <input class="hidden" name="activity" type="checkbox" value="treats"/>
 <div class="card-content transition-all duration-300 bg-white dark:bg-white/5 rounded-2xl overflow-hidden border-2 border-transparent shadow-sm group-hover:shadow-lg h-full p-3">
 <div class="aspect-[4/3] relative overflow-hidden rounded-xl mb-3">
-<div class="w-full h-full bg-[#8c7e6c] transition-transform duration-500 group-hover:scale-110"></div>
+<!-- TEMP: Activity image placeholder -->
+<div class="w-full h-full bg-[#8c7e6c] transition-transform duration-500 group-hover:scale-110">
+<img src="/assets/temp/activity-treats.jpg" class="w-full h-full object-cover" alt="Preparing elephant treats" onerror="this.style.display='none'" />
+</div>
 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 <div class="selection-indicator absolute top-3 right-3 size-6 rounded-full border-2 border-white/50 flex items-center justify-center transition-all duration-300 scale-90">
 <span class="selection-icon material-symbols-outlined text-white text-base font-bold opacity-0">check</span>
@@ -272,7 +291,10 @@
 <input class="hidden" name="activity" type="checkbox" value="feed"/>
 <div class="card-content transition-all duration-300 bg-white dark:bg-white/5 rounded-2xl overflow-hidden border-2 border-transparent shadow-sm group-hover:shadow-lg h-full p-3">
 <div class="aspect-[4/3] relative overflow-hidden rounded-xl mb-3">
-<div class="w-full h-full bg-[#3e4f3a] transition-transform duration-500 group-hover:scale-110"></div>
+<!-- TEMP: Activity image placeholder -->
+<div class="w-full h-full bg-[#3e4f3a] transition-transform duration-500 group-hover:scale-110">
+<img src="/assets/temp/activity-feed.jpg" class="w-full h-full object-cover" alt="Feeding elephants" onerror="this.style.display='none'" />
+</div>
 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 <div class="selection-indicator absolute top-3 right-3 size-6 rounded-full border-2 border-white/50 flex items-center justify-center transition-all duration-300 scale-90">
 <span class="selection-icon material-symbols-outlined text-white text-base font-bold opacity-0">check</span>
@@ -288,7 +310,10 @@
 <input class="hidden" name="activity" type="checkbox" value="shower"/>
 <div class="card-content transition-all duration-300 bg-white dark:bg-white/5 rounded-2xl overflow-hidden border-2 border-transparent shadow-sm group-hover:shadow-lg h-full p-3">
 <div class="aspect-[4/3] relative overflow-hidden rounded-xl mb-3">
-<div class="w-full h-full bg-[#6b5c4d] transition-transform duration-500 group-hover:scale-110"></div>
+<!-- TEMP: Activity image placeholder -->
+<div class="w-full h-full bg-[#6b5c4d] transition-transform duration-500 group-hover:scale-110">
+<img src="/assets/temp/activity-shower.jpg" class="w-full h-full object-cover" alt="Showering elephants" onerror="this.style.display='none'" />
+</div>
 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 <div class="selection-indicator absolute top-3 right-3 size-6 rounded-full border-2 border-white/50 flex items-center justify-center transition-all duration-300 scale-90">
 <span class="selection-icon material-symbols-outlined text-white text-base font-bold opacity-0">check</span>
@@ -304,7 +329,10 @@
 <input class="hidden" name="activity" type="checkbox" value="pool"/>
 <div class="card-content transition-all duration-300 bg-white dark:bg-white/5 rounded-2xl overflow-hidden border-2 border-transparent shadow-sm group-hover:shadow-lg h-full p-3">
 <div class="aspect-[4/3] relative overflow-hidden rounded-xl mb-3">
-<div class="w-full h-full bg-[#2a3825] transition-transform duration-500 group-hover:scale-110"></div>
+<!-- TEMP: Activity image placeholder -->
+<div class="w-full h-full bg-[#2a3825] transition-transform duration-500 group-hover:scale-110">
+<img src="/assets/temp/activity-pool.jpg" class="w-full h-full object-cover" alt="Elephant pool" onerror="this.style.display='none'" />
+</div>
 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 <div class="selection-indicator absolute top-3 right-3 size-6 rounded-full border-2 border-white/50 flex items-center justify-center transition-all duration-300 scale-90">
 <span class="selection-icon material-symbols-outlined text-white text-base font-bold opacity-0">check</span>
@@ -320,7 +348,10 @@
 <input class="hidden" name="activity" type="checkbox" value="mud"/>
 <div class="card-content transition-all duration-300 bg-white dark:bg-white/5 rounded-2xl overflow-hidden border-2 border-transparent shadow-sm group-hover:shadow-lg h-full p-3">
 <div class="aspect-[4/3] relative overflow-hidden rounded-xl mb-3">
-<div class="w-full h-full bg-[#594a3a] transition-transform duration-500 group-hover:scale-110"></div>
+<!-- TEMP: Activity image placeholder -->
+<div class="w-full h-full bg-[#594a3a] transition-transform duration-500 group-hover:scale-110">
+<img src="/assets/temp/activity-mud.jpg" class="w-full h-full object-cover" alt="Mud spa" onerror="this.style.display='none'" />
+</div>
 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 <div class="selection-indicator absolute top-3 right-3 size-6 rounded-full border-2 border-white/50 flex items-center justify-center transition-all duration-300 scale-90">
 <span class="selection-icon material-symbols-outlined text-white text-base font-bold opacity-0">check</span>
@@ -336,7 +367,10 @@
 <input class="hidden" name="activity" type="checkbox" value="photo"/>
 <div class="card-content transition-all duration-300 bg-white dark:bg-white/5 rounded-2xl overflow-hidden border-2 border-transparent shadow-sm group-hover:shadow-lg h-full p-3">
 <div class="aspect-[4/3] relative overflow-hidden rounded-xl mb-3">
-<div class="w-full h-full bg-[#8c7e6c] transition-transform duration-500 group-hover:scale-110"></div>
+<!-- TEMP: Activity image placeholder -->
+<div class="w-full h-full bg-[#8c7e6c] transition-transform duration-500 group-hover:scale-110">
+<img src="/assets/temp/activity-photo.jpg" class="w-full h-full object-cover" alt="Taking photos" onerror="this.style.display='none'" />
+</div>
 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 <div class="selection-indicator absolute top-3 right-3 size-6 rounded-full border-2 border-white/50 flex items-center justify-center transition-all duration-300 scale-90">
 <span class="selection-icon material-symbols-outlined text-white text-base font-bold opacity-0">check</span>
@@ -352,7 +386,10 @@
 <input class="hidden" name="activity" type="checkbox" value="cooking"/>
 <div class="card-content transition-all duration-300 bg-white dark:bg-white/5 rounded-2xl overflow-hidden border-2 border-transparent shadow-sm group-hover:shadow-lg h-full p-3">
 <div class="aspect-[4/3] relative overflow-hidden rounded-xl mb-3">
-<div class="w-full h-full bg-[#3e4f3a] transition-transform duration-500 group-hover:scale-110"></div>
+<!-- TEMP: Activity image placeholder -->
+<div class="w-full h-full bg-[#3e4f3a] transition-transform duration-500 group-hover:scale-110">
+<img src="/assets/temp/activity-cooking.jpg" class="w-full h-full object-cover" alt="Thai cooking" onerror="this.style.display='none'" />
+</div>
 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 <div class="selection-indicator absolute top-3 right-3 size-6 rounded-full border-2 border-white/50 flex items-center justify-center transition-all duration-300 scale-90">
 <span class="selection-icon material-symbols-outlined text-white text-base font-bold opacity-0">check</span>
@@ -368,7 +405,10 @@
 <input class="hidden" name="activity" type="checkbox" value="meal"/>
 <div class="card-content transition-all duration-300 bg-white dark:bg-white/5 rounded-2xl overflow-hidden border-2 border-transparent shadow-sm group-hover:shadow-lg h-full p-3">
 <div class="aspect-[4/3] relative overflow-hidden rounded-xl mb-3">
-<div class="w-full h-full bg-[#6b5c4d] transition-transform duration-500 group-hover:scale-110"></div>
+<!-- TEMP: Activity image placeholder -->
+<div class="w-full h-full bg-[#6b5c4d] transition-transform duration-500 group-hover:scale-110">
+<img src="/assets/temp/activity-meal.jpg" class="w-full h-full object-cover" alt="Thai meal" onerror="this.style.display='none'" />
+</div>
 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 <div class="selection-indicator absolute top-3 right-3 size-6 rounded-full border-2 border-white/50 flex items-center justify-center transition-all duration-300 scale-90">
 <span class="selection-icon material-symbols-outlined text-white text-base font-bold opacity-0">check</span>
@@ -851,4 +891,5 @@
             }
         </style>
 </div>
-</body></html>
+</body>
+</html>
